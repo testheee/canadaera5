@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     
+
+    <title>Gold</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="css/templatemo-style.css">
+    <link rel="stylesheet" href="css/cookie.css">
+</head>
+<body>
+<!-- Page Loader -->
+
+<nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+
+            Economy
+        </a>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
+                <li class="nav-item"><a class="nav-link nav-link-1" aria-current="page" href="index.html">Main</a></li>
+                <li class="nav-item"><a class="nav-link nav-link-2" href="blog.html">Articles</a></li>
+                <li class="nav-item"><a class="nav-link nav-link-3 active" href="contact.html">Contacts</a></li>
+                <li class="nav-item"><a class="nav-link nav-link-4" href="policy.html">Privacy policy</a></li>
+                <li class="nav-item"><a class="nav-link nav-link-4" href="terms.html">Terms and conditions</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+
+    <div class="container-fluid tm-mt-60">
+        <div class="row tm-mb-50">
+            <div class="col-lg-4 col-12 mb-5">
+
+                <form  action="thanks.html"  class="tm-contact-form mx-auto">
+                    <div class="form-group">
+                        <input type="text" name="name" class="form-control rounded-0" placeholder="Name"  />
+                    </div>
+                    <div class="form-group">
+                        <input type="email" name="email" class="form-control rounded-0" placeholder="Email"  />
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control rounded-0" placeholder= "Phone number">
+                    </div>
+                    <div class="form-group">
+                        <textarea rows="8" name="message" class="form-control rounded-0" placeholder="" required=></textarea>
+                    </div>
+
+                    <div class="form-group tm-text-right">
+                        <input type="checkbox" name="terms" value="check" required=""/>
+                        <a href="policy.html" target="_blank">
+                            I have read and agree to the terms of the user agreement
+                        </a>
+                        <button type="submit" class="btn btn-primary">Send</button>
+                    </div>
+                </form>                
+            </div>
+            <div class="col-lg-4 col-12 mb-5">
+                <div class="tm-address-col">
+                    <h2 class="tm-text-primary mb-5">Contacts</h2>
+
+                    <ul class="tm-contacts">
+                        <li>
+
+                                <i class="fas fa-envelope"></i>
+                                mia.langworth@yahoo.com
+
+                        </li>
+                        <li>
+
+                                <i class="fas fa-phone"></i>
+                                +8640248431676
+
+                        </li>
+                        <li>
+
+                                <i class="fas fa-globe"></i>
+                                429 Russel Forks Suite 227
+South Buster, CT 33402-5327
+
+                        </li>
+                    </ul>
+                </div>                
+            </div>
+
+        </div>
+
+    </div> <!-- container-fluid, tm-container-content -->
+
+<footer class="tm-bg-gray pt-5 pb-3 tm-text-gray tm-footer">
+    <div class="container-fluid tm-container-small">
+        <div class="row">
+            <div class="col-lg-6 col-md-12 col-12 px-5 mb-5">
+
+                <a>Economy</a>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6 col-12 px-5 mb-5">
+
+                <ul class="tm-footer-links pl-0">
+                    <li><a href="blog.html">Articles</a></li>
+                    <li><a href="contact.html">Contacts</a></li>
+                    <li><a href="policy.html">Privacy policy</a></li>
+                    <li><a href="terms.html">Terms and conditions</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6 col-12 px-5 mb-5">
+                <ul class="tm-social-links d-flex justify-content-end pl-0 mb-5">
+                    <li class="mb-2"><a href=""><i class="fab fa-facebook"></i></a></li>
+                    <li class="mb-2"><a href=""><i class="fab fa-twitter"></i></a></li>
+                    <li class="mb-2"><a href=""><i class="fab fa-instagram"></i></a></li>
+                    <li class="mb-2"><a href=""><i class="fab fa-pinterest"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-8 col-md-7 col-12 px-5 mb-3">
+                Copyright &copy;<script>document.write(new Date().getFullYear());</script>
+                All rights reserved
+            </div>
+
+        </div>
+    </div>
+</footer>
+<div class='cookie-banner'>
+    <p>
+        The site uses cookies. They allow us to recognize you and get information about your user experience.By continuing to browse the site, I agree to the use of cookies by the site owner in accordance with  <a target="_blank" href="https://en.wikipedia.org/wiki/HTTP_cookie">Cookie policy</a>
+    </p>
+    <button class='close-cookie'>&times;</button>
+</div>
+<script>
+    window.onload = function () {
+        $('.close-cookie').click(function () {
+            $('.cookie-banner').fadeOut();
+        })
+    }
+</script>
+<script>
+    let elems = document.querySelectorAll('.server-name');
+    elems.forEach((elem) => {
+        elem.innerHTML = window.location.hostname
+    })
+</script>
+
+<script src="js/plugins.js"></script>
+<script>
+    $(window).on("load", function() {
+        $('body').addClass('loaded');
+    });
+</script>
+</body>
+</html>
